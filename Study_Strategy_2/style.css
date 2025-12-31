@@ -1,0 +1,242 @@
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #eaeff2;
+  color: #333;
+  margin: 0;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.main-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.strategy-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #d0d7de;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 350px;
+  max-width: 450px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.strategy-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2), 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  padding: 20px 25px;
+  color: white;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 0.85rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.strategy-summary {
+  padding: 20px 25px;
+  border-bottom: 2px solid #e0e0e0;
+  flex-grow: 1;
+}
+
+.summary-item {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.routine-box {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border-left: 5px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  color: #444;
+  font-size: 0.9em;
+}
+
+.table-container {
+  padding: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  white-space: normal;
+}
+
+.data-table th {
+  text-align: left;
+  padding: 12px 15px;
+  background-color: #f8f9fa;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 0.75em;
+  border-bottom: 2px solid #ddd;
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.col-priority {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.col-subject {
+  font-weight: 600;
+  color: #444;
+}
+
+.col-time {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1em;
+}
+
+.insight-footer {
+  padding: 20px 25px;
+  border-top: 2px solid #e0e0e0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: auto;
+}
+
+.insight-Label {
+  font-weight: 800;
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.elite-theme .card-header {
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+}
+
+.elite-theme .strategy-summary {
+  background-color: #f1f8e9;
+  color: #1b5e20;
+}
+
+.elite-theme .routine-box {
+  border-left-color: #2e7d32;
+}
+
+.elite-theme .col-time {
+  color: #2e7d32;
+}
+
+.elite-theme .insight-footer {
+  background-color: #f1f8e9;
+  color: #1b5e20;
+}
+
+.hustler-theme .card-header {
+  background: linear-gradient(135deg, #e65100, #fb8c00);
+}
+
+.hustler-theme .strategy-summary {
+  background-color: #fff3e0;
+  color: #bf360c;
+}
+
+.hustler-theme .routine-box {
+  border-left-color: #e65100;
+}
+
+.hustler-theme .col-time {
+  color: #e65100;
+}
+
+.hustler-theme .insight-footer {
+  background-color: #fff3e0;
+  color: #bf360c;
+}
+
+.specialist-theme .card-header {
+  background: linear-gradient(135deg, #1565c0, #1e88e5);
+}
+
+.specialist-theme .strategy-summary {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.specialist-theme .routine-box {
+  border-left-color: #1565c0;
+}
+
+.specialist-theme .col-time {
+  color: #1565c0;
+}
+
+.specialist-theme .insight-footer {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.main-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.main-container::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
