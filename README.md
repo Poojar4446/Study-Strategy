@@ -40,4 +40,6 @@ Learning Frontend & Full-Stack Development.
 4. Paste the content above
 5. Click Commit new file
 
-screenshots/1.png
+Screenshots
+![Study Strategy 1](screenshots/1.png)
+
