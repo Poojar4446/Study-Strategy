@@ -18,7 +18,7 @@ Practice frontend fundamentals (HTML & CSS)
 Understand project folder structuring
 Learn GitHub workflow (commit, push, deploy)
 Deploy a live website using GitHub Pages
-Build resume-ready beginner projects
+Build resume-ready beginner projects.
 
 🚀 Deployment
 The project is deployed using GitHub Pages.
