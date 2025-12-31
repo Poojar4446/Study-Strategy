@@ -39,3 +39,5 @@ Learning Frontend & Full-Stack Development.
 3. Name it: README.md
 4. Paste the content above
 5. Click Commit new file
+
+screenshots/1.png
