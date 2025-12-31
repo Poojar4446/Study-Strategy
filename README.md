@@ -6,13 +6,6 @@ This project is built to practice HTML, CSS, folder structuring, and GitHub Page
 👉 Live Website:
 https://poojar4446.github.io/Study-Strategy/
 
-✨ Features
-Simple and clear UI
-Separate pages for different study strategies
-Easy navigation from main landing page
-Responsive and lightweight
-Hosted using GitHub Pages
-
 🛠️ Technologies Used
 HTML5
 CSS3
@@ -35,20 +28,10 @@ Deployment steps followed:
 3. Deployed from main branch
 4. Verified live URL
 
-📌 Future Improvements
-Add more study strategy pages
-Improve UI with better styling
-Add JavaScript for interactivity
-Make the design more visually engaging
-
 👩‍💻 Author
 Pooja R
 Electrical & Electronics Engineering Graduate (2024)
 Learning Frontend & Full-Stack Development
-
-⭐ Feedback
-If you have any suggestions or feedback, feel free to share.
-This project is part of my learning journey 🚀
 
 ✅ How to add this to GitHub
 1. Go to your Study-Strategy repository
