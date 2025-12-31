@@ -31,7 +31,7 @@ Deployment steps followed:
 👩‍💻 Author
 Pooja R
 Electrical & Electronics Engineering Graduate (2024)
-Learning Frontend & Full-Stack Development
+Learning Frontend & Full-Stack Development.
 
 ✅ How to add this to GitHub
 1. Go to your Study-Strategy repository
