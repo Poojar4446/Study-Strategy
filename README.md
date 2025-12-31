@@ -6,22 +6,6 @@ This project is built to practice HTML, CSS, folder structuring, and GitHub Page
 👉 Live Website:
 https://poojar4446.github.io/Study-Strategy/
 
-📂 Project Structure
-
-Study-Strategy/
-│
-├── index.html         
-│
-├── Study_Strategy_1/
-│   ├── index.html
-│   └── style.css
-│
-├── Study_Strategy_2/
-│   ├── index.html
-│   └── style.css
-│
-└── README.md
-
 ✨ Features
 Simple and clear UI
 Separate pages for different study strategies
